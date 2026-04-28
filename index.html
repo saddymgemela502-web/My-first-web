@@ -1,47 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sw">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MgemelaVision.com</title>
+    <title>MgemelaVision Practical</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        
+        /* Style ya Table */
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #007bff; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+
+        /* Style ya Form */
+        form { margin-top: 30px; border-top: 2px solid #007bff; padding-top: 20px; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        input[type="submit"] { background-color: #28a745; color: white; border: none; cursor: pointer; font-weight: bold; }
+        input[type="submit"]:hover { background-color: #218838; }
+    </style>
 </head>
 <body>
-    helow world
-    <ol> 
-        <li>My name is mgemela</li>
-        <li> from tanzania</li>
-        <li>atc colleg in arusha</li>
-        <li>My dream to go outsider country</li>
-        <li>And start my life there</li>
-    </ol>
-    <ul>
-        <li>My name is kamambe</li>
-        <li>from kenyanian country</li>
-        <li>17 year old</li>
-        <li>My dream is to be cyber experty</li>
-    </ul>
-    <table  border ="1">
+
+<div class="container">
+    <h2>List ya Wataalamu (Practical Table)</h2>
+    <table>
         <tr>
             <th>Name</th>
             <th>Age</th>
-            <th>course</th>
+            <th>Course</th>
             <th>Country</th>
         </tr>
         <tr>
-            <td>mgemela</td>
+            <td>Mgemela</td>
             <td>20</td>
-            <td>cyber security</td>
-            <td>tanzania</td>
+            <td>Cyber Security</td>
+            <td>Tanzania</td>
         </tr>
         <tr>
-            
+            <td>Kamambe</td>
             <td>22</td>
             <td>Engineering</td>
-            <td>kenya</td>
+            <td>Kenya</td>
         </tr>
- 
     </table>
-    <img src="vision.jpg" alt="vision image" height="300" width="200" style="border-radius: 10px;">
-    
+
+    <hr>
+
+    <h2>Sajili Mwanachama Mpya (Form Elements)</h2>
+    <form action="#">
+        <label>First Name:</label>
+        <input type="text" name="first_name" placeholder="Andika jina la kwanza">
+
+        <label>Password:</label>
+        <input type="password" name="pass" placeholder="Weka password">
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="example@email.com">
+
+        <label>Search Course:</label>
+        <input type="search" name="search">
+
+        <input type="submit" value="Tuma Taarifa">
+        <input type="reset" value="Futa Zote" style="background-color: #dc3545; color: white;">
+    </form>
+</div>
+
 </body>
-</hTML>
+</html>
